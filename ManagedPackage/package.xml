@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CampPack</fullName>
+    <apiAccessLevel>Unrestricted</apiAccessLevel>
+    <namespacePrefix>lostmoose</namespacePrefix>
+    <types>
+        <members>baddogtail__CampSiteOldCamper</members>
+        <name>ContentAsset</name>
+    </types>
+    <types>
+        <members>baddogtail__CampSite_RMS</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>baddogtail__CampSite__c</members>
+        <members>baddogtail__Camp_Visit__c</members>
+        <members>baddogtail__Camper__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>baddogtail__CampSite__c</members>
+        <members>baddogtail__Camp_Visit__c</members>
+        <members>baddogtail__Camper__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>baddogtail__CampSite_UtilityBar</members>
+        <name>FlexiPage</name>
+    </types>
+    <types>
+        <members>baddogtail__CampSite__c-baddogtail__CampSite Layout</members>
+        <members>baddogtail__Camp_Visit__c-baddogtail__Camp Visit Layout</members>
+        <members>baddogtail__Camper__c-baddogtail__Camper Layout</members>
+        <name>Layout</name>
+    </types>
+    <version>44.0</version>
+</Package>
