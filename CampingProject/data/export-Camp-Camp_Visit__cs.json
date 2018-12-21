@@ -1,0 +1,75 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Camp_Visit__c",
+                "referenceId": "Camp_Visit__cRef1"
+            },
+            "Name": "Planned, Fall trip",
+            "CampSite__c": "@CampSite__cRef1",
+            "Checkin_Date__c": "2019-10-04",
+            "Length_of_Stay__c": 3,
+            "Site_Features__c": "Sole site on east side, very wooded, gravel",
+            "Site_Number__c": "46"
+        },
+        {
+            "attributes": {
+                "type": "Camp_Visit__c",
+                "referenceId": "Camp_Visit__cRef2"
+            },
+            "Name": "Visit to Door county",
+            "CampSite__c": "@CampSite__cRef2",
+            "Checkin_Date__c": "2016-06-19",
+            "Length_of_Stay__c": 2,
+            "Site_Number__c": "765"
+        },
+        {
+            "attributes": {
+                "type": "Camp_Visit__c",
+                "referenceId": "Camp_Visit__cRef3"
+            },
+            "Name": "Al Birthday",
+            "CampSite__c": "@CampSite__cRef4",
+            "Checkin_Date__c": "2018-06-16",
+            "Length_of_Stay__c": 7,
+            "Site_Features__c": "Full hookup, Too close to neighbor site. Their camp fire was our site front view.",
+            "Site_Number__c": "16W"
+        },
+        {
+            "attributes": {
+                "type": "Camp_Visit__c",
+                "referenceId": "Camp_Visit__cRef4"
+            },
+            "Name": "Fall 2018, Eric visit, Ikea visit",
+            "CampSite__c": "@CampSite__cRef5",
+            "Checkin_Date__c": "2018-10-05",
+            "Length_of_Stay__c": 2,
+            "Site_Features__c": "Close to bath room, fairly private. Hwy 12 is near by.",
+            "Site_Number__c": "127"
+        },
+        {
+            "attributes": {
+                "type": "Camp_Visit__c",
+                "referenceId": "Camp_Visit__cRef5"
+            },
+            "Name": "Kayak trip to north",
+            "CampSite__c": "@CampSite__cRef6",
+            "Checkin_Date__c": "2018-07-14",
+            "Length_of_Stay__c": 4,
+            "Site_Features__c": "Plenty of room, right next to pit toilets, and near road",
+            "Site_Number__c": "9"
+        },
+        {
+            "attributes": {
+                "type": "Camp_Visit__c",
+                "referenceId": "Camp_Visit__cRef6"
+            },
+            "Name": "Mid Summer, Early week visit",
+            "CampSite__c": "@CampSite__cRef7",
+            "Checkin_Date__c": "2017-08-13",
+            "Length_of_Stay__c": 2,
+            "Site_Features__c": "Lots of open space.",
+            "Site_Number__c": "61"
+        }
+    ]
+}
