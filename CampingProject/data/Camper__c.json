@@ -1,0 +1,34 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Camper__c",
+                "referenceId": "Camper__cRef1"
+            },
+            "Name": "KZ Sportsman 210BHLE 2017",
+            "Features__c": "Bunks, Murphy bed,",
+            "Length__c": "25",
+            "Purchase_Date__c": "2017-06-15"
+        },
+        {
+            "attributes": {
+                "type": "Camper__c",
+                "referenceId": "Camper__cRef2"
+            },
+            "Name": "KZ Connect 2019 241RLK",
+            "Features__c": "Slide-Out, Outside refrig and burner, separate room with queen bed, Trifold Sofasleeper",
+            "Length__c": "30",
+            "Purchase_Date__c": "2018-05-16"
+        },
+        {
+            "attributes": {
+                "type": "Camper__c",
+                "referenceId": "Camper__cRef3"
+            },
+            "Name": "Palomino Yearling 4120 2008",
+            "Features__c": "popup,",
+            "Length__c": "14",
+            "Purchase_Date__c": "2012-06-23"
+        }
+    ]
+}
