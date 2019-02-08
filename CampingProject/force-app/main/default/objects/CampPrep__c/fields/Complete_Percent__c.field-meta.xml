@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Complete_Percent__c</fullName>
+    <externalId>false</externalId>
+    <formula>if(ISPICKVAL(State__c,&quot;not Started&quot;),25/100,
+if(ISPICKVAL(State__c,&quot;Partial&quot;),50/100,
+if(ISPICKVAL(State__c,&quot;Mostly ready&quot;),75/100,
+if(ISPICKVAL(State__c,&quot;ready to go today&quot;),1,0))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Complete Percent</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Percent</type>
+</CustomField>

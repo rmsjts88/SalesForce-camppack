@@ -1,0 +1,1078 @@
+[
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1545400201632,
+            "changeTime": 1545400201632,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1545400201644,
+            "changeTime": 1545400201644,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1547229004664,
+            "changeTime": 1547229004664,
+            "contentHash": "804e2671c54234c323d755d806bf23fd825e9651"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\applications",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\applications",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1545416119375,
+            "changeTime": 1545416119375,
+            "contentHash": "212343b0e990e04725471c5f53ae22576b4feea0",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\applications\\CampSite_RMS.app-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\applications\\CampSite_RMS.app-meta.xml",
+            "isDirectory": false,
+            "size": 818,
+            "modifiedTime": 1545416119376,
+            "changeTime": 1545416119376,
+            "contentHash": "5593f6df011c2bc699e6c70fd69dea1dd9097aca",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\aura",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\aura",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1545400201655,
+            "changeTime": 1545400201655,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\contentassets",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\contentassets",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1545416119406,
+            "changeTime": 1545416119406,
+            "contentHash": "45be0f0e11399fd355f1ebd37f60306dcfccd2e8",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\contentassets\\CampSiteOldCamper.asset",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\contentassets\\CampSiteOldCamper.asset",
+            "isDirectory": false,
+            "size": 11784,
+            "modifiedTime": 1545416119397,
+            "changeTime": 1545416119397,
+            "contentHash": "c5598a69a201f349ebd71859914057929ed81417",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\contentassets\\CampSiteOldCamper.asset-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\contentassets\\CampSiteOldCamper.asset-meta.xml",
+            "isDirectory": false,
+            "size": 564,
+            "modifiedTime": 1545416119407,
+            "changeTime": 1545416119407,
+            "contentHash": "5f066470ceec79b913e874eacdbf7b5595b7bd50",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\flexipages",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\flexipages",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1547229004497,
+            "changeTime": 1547229004497,
+            "contentHash": "c12cf02157eb2d97d295bb7b6b3ccc5c79ca135d"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\flexipages\\CampSite_UtilityBar.flexipage-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\flexipages\\CampSite_UtilityBar.flexipage-meta.xml",
+            "isDirectory": false,
+            "size": 519,
+            "modifiedTime": 1545416119436,
+            "changeTime": 1545416119436,
+            "contentHash": "bc21df8e24af5732c7c072cb7cf4e83885f626b0",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\layouts",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\layouts",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1547229004478,
+            "changeTime": 1547229004478,
+            "contentHash": "1e12c406db30735fdf018254ff0fa6e13a10ad81"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\layouts\\Camper__c-Camper Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\layouts\\Camper__c-Camper Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2513,
+            "modifiedTime": 1547229004462,
+            "changeTime": 1547229004462,
+            "contentHash": "2e02706adead63be1a64fb34b530c504194b23c1"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\layouts\\CampSite__c-CampSite Layout.layout-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\layouts\\CampSite__c-CampSite Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 3054,
+            "modifiedTime": 1545416119454,
+            "changeTime": 1545416119454,
+            "contentHash": "ba4c62adc6f9120167c8b5338754eb7a12047206",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\layouts\\Camp_Visit__c-Camp Visit Layout.layout-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\layouts\\Camp_Visit__c-Camp Visit Layout.layout-meta.xml",
+            "isDirectory": false,
+            "size": 2571,
+            "modifiedTime": 1545416119464,
+            "changeTime": 1545416119464,
+            "contentHash": "4edf3024bf601bcd7c6324551f91063dd1eacf18",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1547229004290,
+            "changeTime": 1547229004290,
+            "contentHash": "af05979f407f58b696ad8472c42a7a4951152856"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camper__c",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camper__c",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1545416119836,
+            "changeTime": 1545416119836,
+            "contentHash": "ec21d3eff3e67149b85849201c10ad211f113d22",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camper__c\\Camper__c.object-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camper__c\\Camper__c.object-meta.xml",
+            "isDirectory": false,
+            "size": 2074,
+            "modifiedTime": 1545416119772,
+            "changeTime": 1545416119772,
+            "contentHash": "820a3dd413df15ce82fdc99687d5cf8859472da4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camper__c\\fields",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camper__c\\fields",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1545416119822,
+            "changeTime": 1545416119822,
+            "contentHash": "f05d6834efdf068f6cb5e9c7469ce5eed4e72cc5",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camper__c\\fields\\Features__c.field-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camper__c\\fields\\Features__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 464,
+            "modifiedTime": 1545416119798,
+            "changeTime": 1545416119798,
+            "contentHash": "e71b416f67beff2f9a18ab04df98dbc3205425ae",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camper__c\\fields\\Length__c.field-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camper__c\\fields\\Length__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 427,
+            "modifiedTime": 1545416119809,
+            "changeTime": 1545416119809,
+            "contentHash": "6f9e802528a8ab96d31bb4a00d691442a1785ac3",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camper__c\\fields\\Purchase_Date__c.field-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camper__c\\fields\\Purchase_Date__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 329,
+            "modifiedTime": 1545416119823,
+            "changeTime": 1545416119823,
+            "contentHash": "730024f1733a8b539449f3376d1fa89abf1eac80",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camper__c\\listViews",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camper__c\\listViews",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1547229004262,
+            "changeTime": 1547229004262,
+            "contentHash": "c74f78bc0c8547ae71783530e8f17ddb185a89ea"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camper__c\\listViews\\All.listView-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camper__c\\listViews\\All.listView-meta.xml",
+            "isDirectory": false,
+            "size": 210,
+            "modifiedTime": 1545416119851,
+            "changeTime": 1545416119851,
+            "contentHash": "0e12c1b5a25bc6685e00c26cb98c9986fc1d82c4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1545416119599,
+            "changeTime": 1545416119599,
+            "contentHash": "c670809e815507882d59bb1281e1f1b1acecf6c7",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c\\CampSite__c.object-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c\\CampSite__c.object-meta.xml",
+            "isDirectory": false,
+            "size": 2080,
+            "modifiedTime": 1545416119512,
+            "changeTime": 1545416119512,
+            "contentHash": "9a49ce8e9ac8d0d9a872dc222005bca9b8f3e05e",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c\\fields",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c\\fields",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1545416119587,
+            "changeTime": 1545416119587,
+            "contentHash": "eedd69c92df010be622a79c372bc4f6e8b3836a2",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c\\fields\\Best_Sties__c.field-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c\\fields\\Best_Sties__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 447,
+            "modifiedTime": 1545416119538,
+            "changeTime": 1545416119538,
+            "contentHash": "ee137b156653c6b3db4082c07b7e3d33581f9073",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c\\fields\\Electric_Hookup__c.field-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c\\fields\\Electric_Hookup__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 470,
+            "modifiedTime": 1545416119552,
+            "changeTime": 1545416119552,
+            "contentHash": "91dfd5d799c2953639845a9478ea13fc4410fce8",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c\\fields\\General_Notes__c.field-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c\\fields\\General_Notes__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 419,
+            "modifiedTime": 1545416119564,
+            "changeTime": 1545416119564,
+            "contentHash": "d659ad18aa7655da557472859775111404cf1974",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c\\fields\\Last_Stay__c.field-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c\\fields\\Last_Stay__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 321,
+            "modifiedTime": 1545416119575,
+            "changeTime": 1545416119575,
+            "contentHash": "6a67e25e3c0cecd52d14d73de1373b414852d094",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c\\fields\\Location__c.field-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c\\fields\\Location__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 409,
+            "modifiedTime": 1545416119587,
+            "changeTime": 1545416119587,
+            "contentHash": "af169bcedd3a556458313c819b35a1f4e254c55c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c\\listViews",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c\\listViews",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1545416119618,
+            "changeTime": 1545416119618,
+            "contentHash": "d06a32733c0ebd466f9ec1cfc71e86554dbfcb55",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c\\listViews\\All.listView-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c\\listViews\\All.listView-meta.xml",
+            "isDirectory": false,
+            "size": 210,
+            "modifiedTime": 1545416119609,
+            "changeTime": 1545416119609,
+            "contentHash": "0e12c1b5a25bc6685e00c26cb98c9986fc1d82c4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c\\listViews\\Close_Sites.listView-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampSite__c\\listViews\\Close_Sites.listView-meta.xml",
+            "isDirectory": false,
+            "size": 286,
+            "modifiedTime": 1545416119619,
+            "changeTime": 1545416119619,
+            "contentHash": "308e24a4d6300224ddae05bffe1058be39a5cd09",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camp_Visit__c",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camp_Visit__c",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1545416119734,
+            "changeTime": 1545416119734,
+            "contentHash": "0d8cdc484d904a49980ea81b1dd6f7acf1bd1dd4",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camp_Visit__c\\Camp_Visit__c.object-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camp_Visit__c\\Camp_Visit__c.object-meta.xml",
+            "isDirectory": false,
+            "size": 2165,
+            "modifiedTime": 1545416119638,
+            "changeTime": 1545416119638,
+            "contentHash": "bd17329cf199901c964ea8409e14f942a5229194",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camp_Visit__c\\fields",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camp_Visit__c\\fields",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1545416119719,
+            "changeTime": 1545416119719,
+            "contentHash": "3af467c3ac05f15496acfd98da934cf6b60eed2d",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camp_Visit__c\\fields\\CampSite__c.field-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camp_Visit__c\\fields\\CampSite__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 618,
+            "modifiedTime": 1545416119658,
+            "changeTime": 1545416119658,
+            "contentHash": "e58b4121f433a57415cca830e4312e4182eace60",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camp_Visit__c\\fields\\Checkin_Date__c.field-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camp_Visit__c\\fields\\Checkin_Date__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 327,
+            "modifiedTime": 1545416119668,
+            "changeTime": 1545416119668,
+            "contentHash": "d2e60fc6cc53dd1dada08344a7d2cbb8b86c514a",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camp_Visit__c\\fields\\Length_of_Stay__c.field-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camp_Visit__c\\fields\\Length_of_Stay__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 414,
+            "modifiedTime": 1545416119683,
+            "changeTime": 1545416119683,
+            "contentHash": "651f56ca8119310386a9656a71cbea2d728c3188",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camp_Visit__c\\fields\\Site_Features__c.field-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camp_Visit__c\\fields\\Site_Features__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 383,
+            "modifiedTime": 1545416119697,
+            "changeTime": 1545416119697,
+            "contentHash": "0ae62b77463c615cb76862a67429b07fc9b85465",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camp_Visit__c\\fields\\Site_Number__c.field-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camp_Visit__c\\fields\\Site_Number__c.field-meta.xml",
+            "isDirectory": false,
+            "size": 378,
+            "modifiedTime": 1545416119720,
+            "changeTime": 1545416119720,
+            "contentHash": "4b9d19d5b3c05b1fa03709328fed4ba38426da79",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camp_Visit__c\\listViews",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camp_Visit__c\\listViews",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1545416119744,
+            "changeTime": 1545416119744,
+            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camp_Visit__c\\listViews\\All.listView-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camp_Visit__c\\listViews\\All.listView-meta.xml",
+            "isDirectory": false,
+            "size": 210,
+            "modifiedTime": 1545416119745,
+            "changeTime": 1545416119745,
+            "contentHash": "0e12c1b5a25bc6685e00c26cb98c9986fc1d82c4",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\permissionsets",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\permissionsets",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1545416119881,
+            "changeTime": 1545416119881,
+            "contentHash": "bcf432b343d67ad51d4de7f34e4223f054ad273e",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\permissionsets\\CampPackAccess.permissionset-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\permissionsets\\CampPackAccess.permissionset-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 5243,
+            "modifiedTime": 1547229004651,
+            "changeTime": 1547229004651,
+            "contentHash": "03d8bd02acfbeee31fabcf39c4348b6729da0b86"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\tabs",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\tabs",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1547229004513,
+            "changeTime": 1547229004513,
+            "contentHash": "b051408e0469046a8776a574ef13d4a85567eb59"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\tabs\\Camper__c.tab-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\tabs\\Camper__c.tab-meta.xml",
+            "isDirectory": false,
+            "size": 228,
+            "modifiedTime": 1545416119947,
+            "changeTime": 1545416119947,
+            "contentHash": "0098feecd4ff489dbe95e477888a91220a729a67",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\tabs\\CampSite__c.tab-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\tabs\\CampSite__c.tab-meta.xml",
+            "isDirectory": false,
+            "size": 235,
+            "modifiedTime": 1545416119916,
+            "changeTime": 1545416119916,
+            "contentHash": "06437bb51f35223b479293b65899ae049beb593c",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\tabs\\Camp_Visit__c.tab-meta.xml",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\tabs\\Camp_Visit__c.tab-meta.xml",
+            "isDirectory": false,
+            "size": 226,
+            "modifiedTime": 1545416119934,
+            "changeTime": 1545416119934,
+            "contentHash": "d948b8f87def4cc96ea30b765caad30191fcb469",
+            "isMetadataFile": true,
+            "state": "u",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject",
+        {
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject",
+            "isDirectory": true,
+            "size": 0,
+            "modifiedTime": 1545417561468,
+            "changeTime": 1545417561468,
+            "contentHash": "8e07a7efa71eb8549411fa5b6442b52689519925",
+            "isMetadataFile": false,
+            "state": "u",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camper__c\\listViews\\Current_Campers.listView-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\Camper__c\\listViews\\Current_Campers.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 377,
+            "modifiedTime": 1547229004263,
+            "changeTime": 1547229004263,
+            "contentHash": "17ee00e11af022105f50eb93e59888e4ca20b214"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\CampPrep__c.object-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\CampPrep__c.object-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 2103,
+            "modifiedTime": 1547229004304,
+            "changeTime": 1547229004304,
+            "contentHash": "ba054eae1e8ff789710b50b11a1dbc2baff70ec6"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\fields\\Bathroom__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\fields\\Bathroom__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 394,
+            "modifiedTime": 1547229004329,
+            "changeTime": 1547229004329,
+            "contentHash": "fff980d3ca35423901f0aacd8d0fe37974451bfe"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\fields\\Bedding__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\fields\\Bedding__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 396,
+            "modifiedTime": 1547229004342,
+            "changeTime": 1547229004342,
+            "contentHash": "f7ce2dd506bb3bdb07700a1e7379ac838d680fec"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\fields\\Camper__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\fields\\Camper__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 597,
+            "modifiedTime": 1547229004350,
+            "changeTime": 1547229004350,
+            "contentHash": "f757d4bc6388bada0eb43741bb32b4db2eded626"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\fields\\Complete_Percent__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\fields\\Complete_Percent__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 690,
+            "modifiedTime": 1547229004365,
+            "changeTime": 1547229004365,
+            "contentHash": "7b3da715bec680b23f217193c8f82f4bcb852958"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\fields\\Food__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\fields\\Food__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 403,
+            "modifiedTime": 1547229004378,
+            "changeTime": 1547229004378,
+            "contentHash": "5ba60433f5905aa191602d0ab4d4e775241a0673"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\fields\\Front_Storage__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\fields\\Front_Storage__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 414,
+            "modifiedTime": 1547229004391,
+            "changeTime": 1547229004391,
+            "contentHash": "f541a754d4413dc430d80296271c57a69cf49310"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\fields\\State__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\fields\\State__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1172,
+            "modifiedTime": 1547229004401,
+            "changeTime": 1547229004401,
+            "contentHash": "442e4d349a173fa6fbb41d1c7eac080dd1c746dc"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\fields\\Water__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\fields\\Water__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 399,
+            "modifiedTime": 1547229004415,
+            "changeTime": 1547229004415,
+            "contentHash": "52a4546b8fd37438bfe94e6d5dde1792560b7e33"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\listViews\\All.listView-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\listViews\\All.listView-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 204,
+            "modifiedTime": 1547229004437,
+            "changeTime": 1547229004437,
+            "contentHash": "a09136a1a46c72265bcd1de0f4a07ba06ec1e9bd"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\layouts\\CampPrep__c-CampPrep Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\layouts\\CampPrep__c-CampPrep Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 3037,
+            "modifiedTime": 1547229004479,
+            "changeTime": 1547229004479,
+            "contentHash": "86291e2c245530888361f810e0f1ccf7af5c156c"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\flexipages\\CampPrep_Record_Page.flexipage-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\flexipages\\CampPrep_Record_Page.flexipage-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 3554,
+            "modifiedTime": 1547229004498,
+            "changeTime": 1547229004498,
+            "contentHash": "c48b0cb8bce2122e9616de27049ea8e7e984a24d"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\tabs\\CampPrep__c.tab-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\tabs\\CampPrep__c.tab-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 220,
+            "modifiedTime": 1547229004514,
+            "changeTime": 1547229004514,
+            "contentHash": "d9121f0672c5560916f74000926d48c9b89477a2"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 23386,
+            "modifiedTime": 1547229004564,
+            "changeTime": 1547229004564,
+            "contentHash": "10d3fea34976b57db695f552549af9711b9d3f3e"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 8514,
+            "modifiedTime": 1547229004585,
+            "changeTime": 1547229004585,
+            "contentHash": "d8c2611aefb67026596aff64a445c353a2b07863"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 8514,
+            "modifiedTime": 1547229004608,
+            "changeTime": 1547229004608,
+            "contentHash": "d8c2611aefb67026596aff64a445c353a2b07863"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 8852,
+            "modifiedTime": 1547229004628,
+            "changeTime": 1547229004628,
+            "contentHash": "b92dfc9e59b41a9cdddd7085688712e97e3621b4"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\pathAssistants\\CamperPrepState.pathAssistant-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\pathAssistants\\CamperPrepState.pathAssistant-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 318,
+            "modifiedTime": 1547229004677,
+            "changeTime": 1547229004677,
+            "contentHash": "b933593688e1a79943c2d9e560aae6d633a3fb5e"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1547229004424,
+            "changeTime": 1547229004424,
+            "contentHash": "b83382346d1850736e04d1bae17efb8b4282c354"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\fields",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1547229004414,
+            "changeTime": 1547229004414,
+            "contentHash": "978ec04d551737a8b8182181a98c7fd968218946"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\listViews",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\objects\\CampPrep__c\\listViews",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1547229004436,
+            "changeTime": 1547229004436,
+            "contentHash": "0b3931647b535802350a588b8bf16d4ae6cc2ed6"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\profiles",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\profiles",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1547229004627,
+            "changeTime": 1547229004627,
+            "contentHash": "9c367b0e719eb8c48c5b0d9cbfb5f580a4bd6717"
+        }
+    ],
+    [
+        "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\pathAssistants",
+        {
+            "state": "u",
+            "sourcePath": "D:\\GitRepos\\SalesForce\\CampPackBranch\\SalesForce-camppack\\CampingProject\\force-app\\main\\default\\pathAssistants",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1547229004677,
+            "changeTime": 1547229004677,
+            "contentHash": "7c26ab38b4074f367c12854f23cf61d9fc6986e3"
+        }
+    ]
+]

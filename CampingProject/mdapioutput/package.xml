@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <name>CustomApplication</name>
+    <members>CampSite_RMS</members>
+  </types>
+  <types>
+    <name>ContentAsset</name>
+    <members>CampSiteOldCamper</members>
+  </types>
+  <types>
+    <name>FlexiPage</name>
+    <members>CampPrep_Record_Page</members>
+    <members>CampPrep_Record_Page1</members>
+    <members>CampPrep_Record_Page2</members>
+    <members>CampSite_UtilityBar</members>
+  </types>
+  <types>
+    <name>Layout</name>
+    <members>CampPrep__c-CampPrep Layout</members>
+    <members>CampSite__c-CampSite Layout</members>
+    <members>Camp_Visit__c-Camp Visit Layout</members>
+    <members>Camper__c-Camper Layout</members>
+  </types>
+  <types>
+    <name>CustomObject</name>
+    <members>CampPrep__c</members>
+    <members>CampSite__c</members>
+    <members>Camp_Visit__c</members>
+    <members>Camper__c</members>
+  </types>
+  <types>
+    <name>CustomField</name>
+    <members>CampPrep__c.Bathroom__c</members>
+    <members>CampPrep__c.Bedding__c</members>
+    <members>CampPrep__c.Camper__c</members>
+    <members>CampPrep__c.Complete_Percent__c</members>
+    <members>CampPrep__c.Food__c</members>
+    <members>CampPrep__c.Front_Storage__c</members>
+    <members>CampPrep__c.State__c</members>
+    <members>CampPrep__c.Water__c</members>
+    <members>CampSite__c.Best_Sties__c</members>
+    <members>CampSite__c.Electric_Hookup__c</members>
+    <members>CampSite__c.General_Notes__c</members>
+    <members>CampSite__c.Last_Stay__c</members>
+    <members>CampSite__c.Location__c</members>
+    <members>Camp_Visit__c.CampSite__c</members>
+    <members>Camp_Visit__c.Checkin_Date__c</members>
+    <members>Camp_Visit__c.Length_of_Stay__c</members>
+    <members>Camp_Visit__c.Site_Features__c</members>
+    <members>Camp_Visit__c.Site_Number__c</members>
+    <members>Camper__c.Empty_Weight__c</members>
+    <members>Camper__c.Features__c</members>
+    <members>Camper__c.Fresh_Water_Tank_Capacity__c</members>
+    <members>Camper__c.Length__c</members>
+    <members>Camper__c.Purchase_Date__c</members>
+    <members>Camper__c.Trailer_Height__c</members>
+  </types>
+  <types>
+    <name>ListView</name>
+    <members>CampPrep__c.All</members>
+    <members>CampSite__c.All</members>
+    <members>CampSite__c.Close_Sites</members>
+    <members>Camp_Visit__c.All</members>
+    <members>Camper__c.All</members>
+    <members>Camper__c.Current_Campers</members>
+  </types>
+  <types>
+    <name>PathAssistant</name>
+    <members>CamperPrepState</members>
+  </types>
+  <types>
+    <name>PermissionSet</name>
+    <members>CampPackAccess</members>
+  </types>
+  <types>
+    <name>Profile</name>
+    <members>Custom%3A Marketing Profile</members>
+    <members>Custom%3A Sales Profile</members>
+    <members>Custom%3A Support Profile</members>
+  </types>
+  <types>
+    <name>CustomTab</name>
+    <members>CampPrep__c</members>
+    <members>CampSite__c</members>
+    <members>Camp_Visit__c</members>
+    <members>Camper__c</members>
+  </types>
+  <version>44.0</version>
+</Package>
