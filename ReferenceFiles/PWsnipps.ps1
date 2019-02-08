@@ -125,3 +125,5 @@ $Prms = $Params.Split(" ")
 # Launch the org
 sfdx force:org:open -u Trail2
 
+
+$cert = New-SelfSignedCertificate -certstorelocation cert:\localmachine\my -dnsname mylostcompany.com

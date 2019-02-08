@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>CampPrep_Record_Page2</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>All tasks to complete prior to a camping trip</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <label>CampPrep</label>
+    <nameField>
+        <label>CampPrep Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>CampPreps</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <fields>
+        <fullName>Bathroom__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>All needed for keeping clean, and Maxalt</description>
+        <externalId>false</externalId>
+        <label>Bathroom</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Bedding__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Sheet, Sleeping bag, Pillow and warm Bankets</description>
+        <externalId>false</externalId>
+        <label>Bedding</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Camper__c</fullName>
+        <externalId>false</externalId>
+        <label>Camper</label>
+        <referenceTo>Camper__c</referenceTo>
+        <relationshipLabel>CampPreps</relationshipLabel>
+        <relationshipName>CampPreps</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Complete_Percent__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(ISPICKVAL(State__c,&quot;not Started&quot;),25/100,
+if(ISPICKVAL(State__c,&quot;Partial&quot;),50/100,
+if(ISPICKVAL(State__c,&quot;Mostly ready&quot;),75/100,
+if(ISPICKVAL(State__c,&quot;ready to go today&quot;),1,0))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Complete Percent</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Food__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Refrigerator, Freezer, Snacks, and any utensils or towels</description>
+        <externalId>false</externalId>
+        <label>Food</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Front_Storage__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Chairs, Grill, Tools, Leveling blocks, Power cable</description>
+        <externalId>false</externalId>
+        <label>Front Storage</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>State__c</fullName>
+        <externalId>false</externalId>
+        <label>State</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not started</fullName>
+                    <default>true</default>
+                    <label>Not started</label>
+                </value>
+                <value>
+                    <fullName>Partial</fullName>
+                    <default>false</default>
+                    <label>Partial</label>
+                </value>
+                <value>
+                    <fullName>Mostly ready</fullName>
+                    <default>false</default>
+                    <label>Mostly ready</label>
+                </value>
+                <value>
+                    <fullName>Ready to go today</fullName>
+                    <default>false</default>
+                    <label>Ready to go today</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Water__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Fresh water tank, water heater, Black water treated</description>
+        <externalId>false</externalId>
+        <label>Water</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+</CustomObject>

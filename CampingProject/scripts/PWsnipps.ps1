@@ -1,28 +1,39 @@
 # Sample statements
 
+# Show the scratch orgs under a Devhub. Be sure to connect to the devhub first
+&Sfdx force:org:list
+# If no devhub then make a connection
 
-# try to log into devhub the -d sets as devhub org
+# connect to a Dev Hub org and set it as your default 
+# USe  the fox user and password when connecting
+sfdx force:auth:web:login --setdefaultdevhubusername --setalias my-devhub-org
+# or
+# try to set name of the 'Dev Hub'  org
+sfdx force:config:set defaultdevhubusername=my-devhub-org
+
+# or
 $DevhubLogin = 'force:auth:web:login -d -a DevHub'
 $Prms3 = $DevhubLogin.Split(" ")
 &sfdx $Prms3
 
 #Connect to the trailhead 2
-$salesForceUrl = "https://resourceful-fox-8xva4d-dev-ed.lightning.force.com"
+$salesForceUrl = "https://resourceful-fox-8xva4d-dev-ed.my.salesforce.com"
+$salesForceUrl = "https://resourceful-otter-omj6ne-dev-ed.my.salesforce.com"
 $User = 'rmsjts@resourceful-fox-8xva4d.com'
 $Pass = 'eat2taco'
-$Params = "force:auth:web:login -a Trail2 -r https://resourceful-fox-8xva4d-dev-ed.my.salesforce.com/"
+$UserTrail3 = "rmsjts@resourceful-otter-omj6ne.com"
+$Params = "force:auth:web:login -a Trail3 -r " + $salesForceUrl 
 $Prms = $Params.Split(" ")
 &sfdx $Prms
-
-# connect to a Dev Hub org and set it as your default 
-# USe  the fox user and password when connecting
-sfdx force:auth:web:login --setdefaultdevhubusername --setalias my-devhub-org
- #Create a scratch org
-sfdx force:org:create --definitionfile my-org-def.json --setdefaultusername --setalias my-scratch-org
+  #on the dev hub goto Active Scratch orgs
 
 
+ #Create a scratch org, adujst the json file name... don't use
+sfdx force:org:create --definitionfile my-org-def.json --setdefaultusername --setalias my-scratch-org-1
+# or
 # Create org from this project's json
-$OrgParams = ' force:org:create -s -f config/project-scratch-def.json -a TempTestOrg'
+$MyTempTestOrgName = "TempTestOrg-3"
+$OrgParams = ' force:org:create -s -f config/project-scratch-def.json -a ' + $MyTempTestOrgName
 $PrmsOeg = $OrgParams.Split(" ")
 &sfdx $PrmsOeg
 
@@ -30,26 +41,23 @@ $PrmsOeg = $OrgParams.Split(" ")
  # pass  (19M)G$vh1
  #url = https://flow-saas-5299-dev-ed.cs60.my.salesforce.com/
 
- &sfdx force:user:display -u TempTestOrg
+ &sfdx force:user:display -u $MyTempTestOrgName
 # View org config data
-sfdx force:org:display -u TempTestOrg
+sfdx force:org:display -u $MyTempTestOrgName
 
-#Create a user password
-sfdx force:user:password:generate -u TempTestOrg
+#Create a user password, if desired
+sfdx force:user:password:generate -u $MyTempTestOrgName
 
  #Log in
- &sfdx force:org:open -u TempTestOrg
+ &sfdx force:org:open -u $MyTempTestOrgName
 
 # Install this https://login.salesforce.com/packaging/installPackage.apexp?p0=04t5A00000295Ce
 # Show the scratch orgs under a Devhub. Be sure to connect to the devhub first
-$ConnectedOrgs = "force:org:list" 
-&Sfdx $ConnectedOrgs
-# $OrgUser = 'test-e6roxldiynk3@example.com' or test-7gdxt0juwhr1@example.com
-# sfdx force:config:set defaultusername=test-7gdxt0juwhr1@example.com
+&Sfdx force:org:list
 
 &sfdx force:alias:list
-#   &sfdx force:alias:set my-SB1-org=test-suxn5umqcsc0@example.com
-&sfdx force:org:open -u TempTestOrg
+
+&sfdx force:org:open -u $MyTempTestOrgName
 return
 
 # Retreive the package metadata
@@ -61,9 +69,9 @@ $Prms2 = $call.Split(" ")
 &sfdx $Prms2
 return
 
-# Pull metadata from installed package
-sfdx force:mdapi:retrieve -s -r ./mdapipackage -p DreamInvest -u TempTestOrg -w 10
-# Extract the zip, delete the zip hen restructure
+# Pull metadata from an installed package
+sfdx force:mdapi:retrieve -s -r ./mdapipackage -p DreamInvest -u $MyTempTestOrgName -w 10
+# Extract the zip, delete the zip then restructure
 sfdx force:mdapi:convert -r mdapipackage/
 # This puts the files under force-app, once done deletd the original folder of the extract
 
@@ -83,18 +91,24 @@ return
 ############ get and push metedata
 #----------------------------------- 
 # Pull from installed packages to local folder
-sfdx force:mdapi:retrieve -s -r ./MDapipackage -p CampPackUnmanaged -u TempTestOrg -w 10
+sfdx force:mdapi:retrieve -s -r ./MDapipackage -p CampPackUnmanaged -u $MyTempTestOrgName -w 10
 # Then unzip, remove zip file and run
 sfdx force:mdapi:convert -r mdapipackage/
 # Now remove the extracted foder and files, test by deploying to new scratch org
 
 # To push this project to scratch org
-&sfdx force:source:push -u TempTestOrg
-&sfdx force:user:permset:assign -n DreamInvest
+&sfdx force:source:push -u $MyTempTestOrgName
+&sfdx force:user:permset:assign -n CampPackAccess
+
+# Push data to scratch org
+sfdx force:data:tree:import -h
+sfdx force:data:tree:import -u TempTestOrg-2 --sobjecttreefiles data/Camper__c.json
+sfdx force:data:tree:import -u $MyTempTestOrgName --plan data/export-Camp-CampSite__c-Camp_Visit__c-plan.json
+
 &sfdx force:org:open
 
 # To pull from the scratch org to this project
-&sfdx force:source:pull -u TempTestOrg
+&sfdx force:source:pull -u $MyTempTestOrgName
 
 # To copy some data from scratch org
 sfdx force:data:tree:export -h
@@ -122,7 +136,6 @@ $QueryPrms
 
 # Then to import this, REmoved the 'lostmoose__' strings
 sfdx force:data:tree:import --sobjecttreefiles data/Camper__c.json
-
 sfdx force:data:tree:import --plan data/export-Camp-CampSite__c-Camp_Visit__c-plan.json
 
 
@@ -147,15 +160,22 @@ $Prms = $Params.Split(" ")
 &sfdx force:org:list
 &sfdx force:alias:list
 
-# Convert source so the mdapi can use it
+#### Deploy to a trailhead  ####
+# 1. Convert source so the mdapi can use it (Create child folder named mdapioutput)
 &sfdx force:source:convert -d mdapioutput/
 
-# To push this projects converted source to trailhead 2
-&sfdx force:mdapi:deploy -d mdapioutput/ -u Trail2 -w 100
+# 2. To push this projects converted source to trailhead 2 or Trail3
+&sfdx force:mdapi:deploy -d mdapioutput/ -u Trail3 -w 100
 
-# Assing the permission set
-&sfdx force:user:permset:assign -n DreamInvest -u Trail2
+# 3. Assign the permission set
+&sfdx force:user:permset:assign -n CampPackAccess -u Trail3
 
 # Launch the org
-sfdx force:org:open -u Trail2
+sfdx force:org:open -u Trail3
 
+
+sfdx force:package:install -h
+
+sfdx force:data:tree:import -u  Trail3 --sobjecttreefiles data/Camper__c.json
+
+sfdx force:data:tree:import -u Trail3 --plan data/export-Camp-CampSite__c-Camp_Visit__c-plan.json

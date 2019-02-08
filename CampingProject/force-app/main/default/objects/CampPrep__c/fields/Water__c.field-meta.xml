@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Water__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Fresh water tank, water heater, Black water treated</description>
+    <externalId>false</externalId>
+    <label>Water</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
