@@ -74,12 +74,6 @@
     <members>CampPackAccess</members>
   </types>
   <types>
-    <name>Profile</name>
-    <members>Custom%3A Marketing Profile</members>
-    <members>Custom%3A Sales Profile</members>
-    <members>Custom%3A Support Profile</members>
-  </types>
-  <types>
     <name>CustomTab</name>
     <members>CampPrep__c</members>
     <members>CampSite__c</members>
