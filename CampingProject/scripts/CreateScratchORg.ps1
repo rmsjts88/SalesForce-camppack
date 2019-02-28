@@ -1,9 +1,10 @@
 # You will need an org that is set as the DevHub, currently is trailhead-2
-
+# Command Palette ctrl shift P
 
 # look for devhub first has a (D)
 &Sfdx force:org:list
 &sfdx force:alias:list
+&sfdx authorize
 # If no devhub then make a connection
 # connect to a Dev Hub org and set it as your default 
 # Use  the fox user and password when connecting
@@ -33,7 +34,7 @@ $PrmsOrg = $OrgParams.Split(" ")
 ############ get and push metedata and real data
 
 # To push this project to scratch org add -f to --forceoverwrite an overwrite for any conflicts
-&sfdx force:source:push -u $MyTempTestOrgName
+&sfdx force:source:push -u $MyTempTestOrgName -f
 &sfdx force:user:permset:assign -n CampPackAccess
 
 # Push data to scratch org
@@ -41,8 +42,11 @@ $PrmsOrg = $OrgParams.Split(" ")
 sfdx force:data:tree:import -u $MyTempTestOrgName --sobjecttreefiles data/export2-Camp-Camper__c.json
 sfdx force:data:tree:import -u $MyTempTestOrgName --plan data/export2-Camp-CampSite__c-Camp_Visit__c-plan.json
 
-
+################################
 # To pull metadata from the scratch org to this project
+################################
+
+&sfdx force:source:status -u $MyTempTestOrgName
 &sfdx force:source:pull -u $MyTempTestOrgName
 
 # To copy some data from scratch org

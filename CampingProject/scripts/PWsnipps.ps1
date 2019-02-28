@@ -6,7 +6,8 @@
 
 # connect to a Dev Hub org and set it as your default 
 # USe  the fox user and password when connecting
-sfdx force:auth:web:login --setdefaultdevhubusername --setalias my-devhub-org
+$DevHubAlias = "my-devhub-org"
+sfdx force:auth:web:login --setdefaultdevhubusername --setalias $DevHubAlias
 # or
 # try to set name of the 'Dev Hub'  org
 sfdx force:config:set defaultdevhubusername=my-devhub-org
@@ -32,7 +33,7 @@ $Prms = $Params.Split(" ")
 sfdx force:org:create --definitionfile my-org-def.json --setdefaultusername --setalias my-scratch-org-1
 # or
 # Create org from this project's json
-$MyTempTestOrgName = "TempTestOrg-3"
+$MyTempTestOrgName = "TempTestOrg-4"
 $OrgParams = ' force:org:create -s -f config/project-scratch-def.json -a ' + $MyTempTestOrgName
 $PrmsOeg = $OrgParams.Split(" ")
 &sfdx $PrmsOeg
@@ -91,13 +92,13 @@ return
 ############ get and push metedata
 #----------------------------------- 
 # Pull from installed packages to local folder
-sfdx force:mdapi:retrieve -s -r ./MDapipackage -p CampPackUnmanaged -u $MyTempTestOrgName -w 10
+sfdx force:mdapi:retrieve  -s -r ./MDapipackage -p CampPackUnmanaged -u $MyTempTestOrgName -w 10
 # Then unzip, remove zip file and run
 sfdx force:mdapi:convert -r mdapipackage/
 # Now remove the extracted foder and files, test by deploying to new scratch org
 
 # To push this project to scratch org
-&sfdx force:source:push -u $MyTempTestOrgName
+&sfdx force:source:push -u $MyTempTestOrgName  -f
 &sfdx force:user:permset:assign -n CampPackAccess
 
 # Push data to scratch org
@@ -107,7 +108,10 @@ sfdx force:data:tree:import -u $MyTempTestOrgName --plan data/export-Camp-CampSi
 
 &sfdx force:org:open
 
+####################
 # To pull from the scratch org to this project
+################
+&sfdx force:source:status -u $MyTempTestOrgName
 &sfdx force:source:pull -u $MyTempTestOrgName
 
 # To copy some data from scratch org
@@ -134,7 +138,7 @@ $QueryPrms
 &sfdx $QueryPrms
 
 
-# Then to import this, REmoved the 'lostmoose__' strings
+# Then to import this, Removed the 'lostmoose__' strings
 sfdx force:data:tree:import --sobjecttreefiles data/Camper__c.json
 sfdx force:data:tree:import --plan data/export-Camp-CampSite__c-Camp_Visit__c-plan.json
 
@@ -143,16 +147,18 @@ sfdx force:data:tree:import --plan data/export-Camp-CampSite__c-Camp_Visit__c-pl
 #sfdx force:data:tree:import --sobjecttreefiles data/lostmoose__Camp_Visit__c.json
 
 
-########
+##########################
 ### will push to TrailHead-2
-#######
+### with MetaData api
+#########################
 
 $salesForceUrl = "https://resourceful-fox-8xva4d-dev-ed.lightning.force.com"
 $User = 'rmsjts@resourceful-fox-8xva4d.com'
 $Pass = 'eat2taco'
 
 #Connect to the trailhead 2
-$Params = "force:auth:web:login -a Trail2 -r https://resourceful-fox-8xva4d-dev-ed.my.salesforce.com/"
+$TrailHeadAlias = "Trail2"
+$Params = "force:auth:web:login -a $TrailHeadAlias -r https://resourceful-fox-8xva4d-dev-ed.my.salesforce.com/"
 $Prms = $Params.Split(" ")
 &sfdx $Prms
 
@@ -162,20 +168,49 @@ $Prms = $Params.Split(" ")
 
 #### Deploy to a trailhead  ####
 # 1. Convert source so the mdapi can use it (Create child folder named mdapioutput)
-&sfdx force:source:convert -d mdapioutput/
+&sfdx force:source:convert --outputdir mdapioutput/
 
 # 2. To push this projects converted source to trailhead 2 or Trail3
-&sfdx force:mdapi:deploy -d mdapioutput/ -u Trail3 -w 100
+&sfdx force:mdapi:deploy -d mdapioutput/ -u $TrailHeadAlias -w 100
+&sfdx force:source:deploy -h  # not a reccomended deploy, will pull from force-app folder
 
 # 3. Assign the permission set
-&sfdx force:user:permset:assign -n CampPackAccess -u Trail3
+&sfdx force:user:permset:assign -n CampPackAccess -u $TrailHeadAlias
 
 # Launch the org
-sfdx force:org:open -u Trail3
+sfdx force:org:open -u $TrailHeadAlias
 
-
+# Unlocked package which can be pushed to SBX or prod, really is only manual process to create and push
+sfdx force:package:version:create -h
 sfdx force:package:install -h
 
-sfdx force:data:tree:import -u  Trail3 --sobjecttreefiles data/Camper__c.json
+# Sample unlock package create, set in the sfdx-package.json 
+# 1. 
+$PackageAlias = "unlockedCampPack"
+# sfdx force:package2:create -h I don't know what the package2 is.
+sfdx force:package:create  --name $PackageAlias --description "My first sample  package" --packagetype Unlocked --path force-app --nonamespace --targetdevhubusername $DevHubAlias
+# the sfdx-project.json will be updated
 
-sfdx force:data:tree:import -u Trail3 --plan data/export-Camp-CampSite__c-Camp_Visit__c-plan.json
+# Change the version name and number, (if desired)
+
+# 2.
+$KeyForPackage = "test1234"
+# could use --installationkeybypass
+sfdx force:package:version:create  -p $PackageAlias -d force-app -k $KeyForPackage  --wait 10 -v $DevHubAlias
+
+# now you can install, use the package alias from the json 
+# 3.
+# force: :version:list :version:display
+sfdx force:package:list
+
+sfdx force:source:status -u $MyTempTestOrgName
+
+&sfdx force:package:version:list # -h 
+$PackageNameVerAlias = "unlockedCampPack@0.1.0-1"
+$PackageNameVerAlias = "unlockedCampPack@0.1.0-2"
+sfdx force:package:install --wait 10 --publishwait 10 --package $PackageNameVerAlias -k $KeyForPackage -r -u $TrailHeadAlias
+sfdx force:package:install --wait 10 --publishwait 10 --package $PackageNameVerAlias -k $KeyForPackage -r -u $MyTempTestOrgName
+
+sfdx force:data:tree:import -u  $TrailHeadAlias --sobjecttreefiles data/Camper__c.json
+
+sfdx force:data:tree:import -u $TrailHeadAlias --plan data/export-Camp-CampSite__c-Camp_Visit__c-plan.json
