@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Bathroom__c</fullName>
     <defaultValue>false</defaultValue>
-    <description>All needed for keeping clean, and Maxalt</description>
+    <description>All things needed for keeping clean, and Maxalt</description>
     <externalId>false</externalId>
     <label>Bathroom</label>
     <trackTrending>false</trackTrending>
