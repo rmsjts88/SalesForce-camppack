@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "Camper__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "export3-Camp-Camper__cs.json"
+        ]
+    }
+]

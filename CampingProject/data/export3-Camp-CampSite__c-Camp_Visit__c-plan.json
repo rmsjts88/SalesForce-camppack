@@ -1,0 +1,18 @@
+[
+    {
+        "sobject": "CampSite__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "export3-Camp-CampSite__cs.json"
+        ]
+    },
+    {
+        "sobject": "Camp_Visit__c",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "export3-Camp-Camp_Visit__cs.json"
+        ]
+    }
+]

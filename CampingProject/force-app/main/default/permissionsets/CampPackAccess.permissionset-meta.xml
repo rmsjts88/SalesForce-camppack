@@ -71,6 +71,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Camp_Visit__c.Cost_of_the_visit__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Camp_Visit__c.Length_of_Stay__c</field>
         <readable>true</readable>
     </fieldPermissions>

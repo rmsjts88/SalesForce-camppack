@@ -46,6 +46,7 @@
     <members>CampSite__c.Location__c</members>
     <members>Camp_Visit__c.CampSite__c</members>
     <members>Camp_Visit__c.Checkin_Date__c</members>
+    <members>Camp_Visit__c.Cost_of_the_visit__c</members>
     <members>Camp_Visit__c.Length_of_Stay__c</members>
     <members>Camp_Visit__c.Site_Features__c</members>
     <members>Camp_Visit__c.Site_Number__c</members>

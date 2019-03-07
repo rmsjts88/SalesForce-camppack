@@ -44,16 +44,6 @@
                 "type": "CampSite__c",
                 "referenceId": "CampSite__cRef5"
             },
-            "Name": "Willow River State Park",
-            "Best_Sties__c": "127",
-            "Electric_Hookup__c": true,
-            "General_Notes__c": "Nice bathrooms,"
-        },
-        {
-            "attributes": {
-                "type": "CampSite__c",
-                "referenceId": "CampSite__cRef6"
-            },
             "Name": "Copper Falls",
             "Best_Sties__c": "5, 8, 18, 6, 9, 11, 13",
             "Electric_Hookup__c": true,
@@ -62,11 +52,21 @@
         {
             "attributes": {
                 "type": "CampSite__c",
-                "referenceId": "CampSite__cRef7"
+                "referenceId": "CampSite__cRef6"
             },
             "Name": "Devils Lake State Park",
             "Electric_Hookup__c": true,
             "General_Notes__c": "Near Madison, lots of college kids. Nice hike around lake."
+        },
+        {
+            "attributes": {
+                "type": "CampSite__c",
+                "referenceId": "CampSite__cRef7"
+            },
+            "Name": "Willow River State Park",
+            "Best_Sties__c": "127",
+            "Electric_Hookup__c": true,
+            "General_Notes__c": "Nice bathrooms,"
         }
     ]
 }

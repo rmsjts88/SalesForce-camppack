@@ -14,7 +14,8 @@ sfdx force:config:set defaultdevhubusername=my-devhub-org
 
 
 # Create org from this project's json
-$MyTempTestOrgName = "TempTestOrg-1"  # This var is used in the pull and push of code (metadata)
+$MyTempTestOrgName = "TempTestOrg-2"  # This var is used in the pull and push of code (metadata)
+#$MyTempTestOrgName = "my-devhub-org"
 $OrgParams = ' force:org:create -s -f config/project-scratch-def.json -a ' + $MyTempTestOrgName
 $PrmsOrg = $OrgParams.Split(" ")
 &sfdx $PrmsOrg
@@ -38,24 +39,28 @@ $PrmsOrg = $OrgParams.Split(" ")
 
 # Push data to scratch org
 # sfdx force:data:tree:import -h  # Just to show help
+sfdx force:data:tree:import -u $MyTempTestOrgName --plan data/export3-Camp-Camper__c-CampPrep__c-plan.json
+
 sfdx force:data:tree:import -u $MyTempTestOrgName --sobjecttreefiles data/export2-Camp-Camper__c.json
-sfdx force:data:tree:import -u $MyTempTestOrgName --plan data/export2-Camp-CampSite__c-Camp_Visit__c-plan.json
+
+sfdx force:data:tree:import -u $MyTempTestOrgName --plan data/exportFox-Camp-CampSite__c-Camp_Visit__c-plan.json
 
 
 # To pull metadata from the scratch org to this project
 &sfdx force:source:pull -u $MyTempTestOrgName
 
 # To copy some data from scratch org
-$QueryStringCamperList = '"SELECT Id, Name, Features__c, Fresh_Water_Tank_Capacity__c, Trailer_Height__c, Empty_Weight__c, Length__c, Purchase_Date__c FROM Camper__c"'
+$QueryStringCamperPrep = '(SELECT Name, Bathroom__c, Bedding__c,Camper__c,Food__c, Front_Storage__c,State__c,Water__c FROM CampPreps__r)'
+$QueryStringCamper = '"SELECT Name, Features__c, Fresh_Water_Tank_Capacity__c, Trailer_Height__c, Empty_Weight__c, Length__c, Purchase_Date__c, ' + $QueryStringCamperPrep + ' FROM Camper__c"'
 $QueryStringCampVisit = '(SELECT Name, CampSite__c, Checkin_Date__c, Length_of_Stay__c, Site_Features__c, Site_Number__c  FROM CampVisits__r)'
 $CombindedVisitSite = '"SELECT Name, Best_Sties__c, Electric_Hookup__c, General_Notes__c, Last_Stay__c, Location__c, '+ $QueryStringCampVisit +' FROM CampSite__c"';
 
-$Commands = "force:data:tree:export;--query;$CombindedVisitSite;-u;$MyTempTestOrgName;--prefix;export2-Camp;--outputdir;./data;--plan"
+$Commands = "force:data:tree:export;--query;$CombindedVisitSite;-u;$MyTempTestOrgName;--prefix;exportFox-Camp;--outputdir;./data;--plan"
 $QueryPrms = $Commands.Split(";")
 $QueryPrms 
 &sfdx $QueryPrms
 
-$Commands = "force:data:tree:export;--query;$QueryStringCamperList;-u;$MyTempTestOrgName;--prefix;export2-Camp;--outputdir;./data"
+$Commands = "force:data:tree:export;--query;$QueryStringCamper;-u;$MyTempTestOrgName;--prefix;export3-Camp;--outputdir;./data;--plan"
 $QueryPrms = $Commands.Split(";")
 $QueryPrms 
 &sfdx $QueryPrms
