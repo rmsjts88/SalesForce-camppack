@@ -1,8 +1,5 @@
 
-CampingProject/.sfdx/sfdx-config.json
-CampingProject/.sfdx/typings/lwc/apex.d.ts
-CampingProject/.sfdx/typings/lwc/contentassets.d.ts
-CampingProject/.sfdx/typings/lwc/engine.d.ts
-CampingProject/.sfdx/typings/lwc/lds.d.ts
-CampingProject/.sfdx/typings/lwc/schema.d.ts
-CampingProject/.sfdx/typings/lwc/user.d.ts
+CampingProject/.sfdx/
+CampingProject/.sfdx/orgs/
+CampingProject/.vscode/
+CampingProject/force-app/main/default/settings/OrgPreference.settings-meta.xml
