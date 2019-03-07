@@ -52,10 +52,10 @@ sfdx force:data:tree:import -u $MyTempTestOrgName --plan data/exportFox-Camp-Cam
 # To copy some data from scratch org
 $QueryStringCamperPrep = '(SELECT Name, Bathroom__c, Bedding__c,Camper__c,Food__c, Front_Storage__c,State__c,Water__c FROM CampPreps__r)'
 $QueryStringCamper = '"SELECT Name, Features__c, Fresh_Water_Tank_Capacity__c, Trailer_Height__c, Empty_Weight__c, Length__c, Purchase_Date__c, ' + $QueryStringCamperPrep + ' FROM Camper__c"'
-$QueryStringCampVisit = '(SELECT Name, CampSite__c, Checkin_Date__c, Length_of_Stay__c, Site_Features__c, Site_Number__c  FROM CampVisits__r)'
+$QueryStringCampVisit = '(SELECT Name, CampSite__c, Checkin_Date__c, Cost_of_the_visit__c ,Length_of_Stay__c, Site_Features__c, Site_Number__c  FROM CampVisits__r)'
 $CombindedVisitSite = '"SELECT Name, Best_Sties__c, Electric_Hookup__c, General_Notes__c, Last_Stay__c, Location__c, '+ $QueryStringCampVisit +' FROM CampSite__c"';
 
-$Commands = "force:data:tree:export;--query;$CombindedVisitSite;-u;$MyTempTestOrgName;--prefix;exportFox-Camp;--outputdir;./data;--plan"
+$Commands = "force:data:tree:export;--query;$CombindedVisitSite;-u;$MyTempTestOrgName;--prefix;export3-Camp;--outputdir;./data;--plan"
 $QueryPrms = $Commands.Split(";")
 $QueryPrms 
 &sfdx $QueryPrms
