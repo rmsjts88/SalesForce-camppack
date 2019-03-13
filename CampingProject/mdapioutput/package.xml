@@ -53,6 +53,7 @@
     <members>Camper__c.Empty_Weight__c</members>
     <members>Camper__c.Features__c</members>
     <members>Camper__c.Fresh_Water_Tank_Capacity__c</members>
+    <members>Camper__c.Fully_loaded_Weight__c</members>
     <members>Camper__c.Length__c</members>
     <members>Camper__c.Purchase_Date__c</members>
     <members>Camper__c.Trailer_Height__c</members>
