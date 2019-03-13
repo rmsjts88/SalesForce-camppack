@@ -68,7 +68,7 @@
     <fields>
         <fullName>Bathroom__c</fullName>
         <defaultValue>false</defaultValue>
-        <description>All needed for keeping clean, and Maxalt</description>
+        <description>All things needed for keeping clean, and Meds</description>
         <externalId>false</externalId>
         <label>Bathroom</label>
         <trackTrending>false</trackTrending>

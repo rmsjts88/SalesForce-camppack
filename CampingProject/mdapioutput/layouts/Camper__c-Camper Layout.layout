@@ -23,6 +23,10 @@
                 <behavior>Edit</behavior>
                 <field>Trailer_Height__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Fully_loaded_Weight__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
