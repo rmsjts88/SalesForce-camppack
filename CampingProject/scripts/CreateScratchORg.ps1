@@ -9,13 +9,16 @@
 # connect to a Dev Hub org and set it as your default 
 # Use  the fox user and password when connecting
 sfdx force:auth:web:login --setdefaultdevhubusername --setalias my-devhub-org
+
 # or
 # try to set name of the 'Dev Hub'  org
 sfdx force:config:set defaultdevhubusername=my-devhub-org
 
 
 # Create org from this project's json
-$MyTempTestOrgName = "TempTestOrg-2"  # This var is used in the pull and push of code (metadata)
+$MyTempTestShpOrgName = "TempTestOrg-SHP-2"
+
+$MyTempTestOrgName = "TempTestOrg-1"  # 'MyCamptestOrg-1' This var is used in the pull and push of code (metadata)
 #$MyTempTestOrgName = "my-devhub-org"
 $OrgParams = ' force:org:create -s -f config/project-scratch-def.json -a ' + $MyTempTestOrgName
 $PrmsOrg = $OrgParams.Split(" ")
@@ -35,8 +38,11 @@ $PrmsOrg = $OrgParams.Split(" ")
 ############ get and push metedata and real data
 
 # To push this project to scratch org add -f to --forceoverwrite an overwrite for any conflicts
-&sfdx force:source:push -u $MyTempTestOrgName -f
+&sfdx force:source:push -u $MyTempTestShpOrgName  -f
+&sfdx force:source:push -u $MyTempTestOrgName  -f
 &sfdx force:user:permset:assign -n CampPackAccess
+
+&sfdx force:source:status -u $MyTempTestShpOrgName
 
 # Push data to scratch org
 # sfdx force:data:tree:import -h  # Just to show help
