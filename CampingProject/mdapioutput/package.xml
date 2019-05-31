@@ -17,20 +17,18 @@
   </types>
   <types>
     <name>Layout</name>
+    <members>Account-Account %28Marketing%29 Layout</members>
+    <members>Account-Account %28Sales%29 Layout</members>
+    <members>Account-Account %28Support%29 Layout</members>
+    <members>Account-Account Layout</members>
     <members>CampPrep__c-CampPrep Layout</members>
     <members>CampSite__c-CampSite Layout</members>
     <members>Camp_Visit__c-Camp Visit Layout</members>
     <members>Camper__c-Camper Layout</members>
   </types>
   <types>
-    <name>CustomObject</name>
-    <members>CampPrep__c</members>
-    <members>CampSite__c</members>
-    <members>Camp_Visit__c</members>
-    <members>Camper__c</members>
-  </types>
-  <types>
     <name>CustomField</name>
+    <members>Account.Alias_name__c</members>
     <members>CampPrep__c.Bathroom__c</members>
     <members>CampPrep__c.Bedding__c</members>
     <members>CampPrep__c.Camper__c</members>
@@ -59,6 +57,13 @@
     <members>Camper__c.Trailer_Height__c</members>
   </types>
   <types>
+    <name>CustomObject</name>
+    <members>CampPrep__c</members>
+    <members>CampSite__c</members>
+    <members>Camp_Visit__c</members>
+    <members>Camper__c</members>
+  </types>
+  <types>
     <name>ListView</name>
     <members>CampPrep__c.All</members>
     <members>CampSite__c.All</members>
@@ -76,11 +81,22 @@
     <members>CampPackAccess</members>
   </types>
   <types>
+    <name>Profile</name>
+    <members>Admin</members>
+    <members>Custom%3A Marketing Profile</members>
+    <members>Custom%3A Sales Profile</members>
+    <members>Custom%3A Support Profile</members>
+  </types>
+  <types>
+    <name>Settings</name>
+    <members>OrgPreference</members>
+  </types>
+  <types>
     <name>CustomTab</name>
     <members>CampPrep__c</members>
     <members>CampSite__c</members>
     <members>Camp_Visit__c</members>
     <members>Camper__c</members>
   </types>
-  <version>44.0</version>
+  <version>45.0</version>
 </Package>

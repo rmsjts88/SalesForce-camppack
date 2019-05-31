@@ -21,7 +21,7 @@ $Prms3 = $DevhubLogin.Split(" ")
 $salesForceUrl = "https://resourceful-fox-8xva4d-dev-ed.my.salesforce.com"
 $salesForceUrl = "https://resourceful-otter-omj6ne-dev-ed.my.salesforce.com"
 $User = 'rmsjts@resourceful-fox-8xva4d.com'
-$Pass = 'eat2taco'
+#$Pass = 'eat1taco'
 $UserTrail3 = "rmsjts@resourceful-otter-omj6ne.com"
 $Params = "force:auth:web:login -a Trail3 -r " + $salesForceUrl 
 $Prms = $Params.Split(" ")
@@ -33,7 +33,8 @@ $Prms = $Params.Split(" ")
 sfdx force:org:create --definitionfile my-org-def.json --setdefaultusername --setalias my-scratch-org-1
 # or
 # Create org from this project's json
-$MyTempTestOrgName = "TempTestOrg-4"
+$MyTempTestOrgName = "TempTestOrg-2"
+
 $OrgParams = ' force:org:create -s -f config/project-scratch-def.json -a ' + $MyTempTestOrgName
 $PrmsOeg = $OrgParams.Split(" ")
 &sfdx $PrmsOeg
@@ -154,7 +155,7 @@ sfdx force:data:tree:import --plan data/export-Camp-CampSite__c-Camp_Visit__c-pl
 
 $salesForceUrl = "https://resourceful-fox-8xva4d-dev-ed.lightning.force.com"
 $User = 'rmsjts@resourceful-fox-8xva4d.com'
-$Pass = 'eat2taco'
+#$Pass = 'eat2taco'
 
 #Connect to the trailhead 2
 $TrailHeadAlias = "Trail2"

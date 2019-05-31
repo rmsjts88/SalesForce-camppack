@@ -1,0 +1,18 @@
+[
+    {
+        "sobject": "Camper__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "exportFox-Camp-Camper__cs.json"
+        ]
+    },
+    {
+        "sobject": "CampPrep__c",
+        "saveRefs": false,
+        "resolveRefs": true,
+        "files": [
+            "exportFox-Camp-CampPrep__cs.json"
+        ]
+    }
+]

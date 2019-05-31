@@ -1,0 +1,19 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "CampPrep__c",
+                "referenceId": "CampPrep__cRef1"
+            },
+            "Name": "Spring2019 initial trip",
+            "Complete_Percent__c": 25,
+            "Bathroom__c": false,
+            "Bedding__c": false,
+            "Camper__c": "@Camper__cRef2",
+            "Food__c": false,
+            "Front_Storage__c": false,
+            "State__c": "Not started",
+            "Water__c": false
+        }
+    ]
+}
