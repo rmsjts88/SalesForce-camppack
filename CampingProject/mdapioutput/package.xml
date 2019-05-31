@@ -28,6 +28,7 @@
   </types>
   <types>
     <name>CustomField</name>
+    <members>Account.Act_Description_Long__c</members>
     <members>Account.Alias_name__c</members>
     <members>CampPrep__c.Bathroom__c</members>
     <members>CampPrep__c.Bedding__c</members>
@@ -79,7 +80,7 @@
   <types>
     <name>PermissionSet</name>
     <members>CampPackAccess</members>
-  </types>  
+  </types>
   <types>
     <name>CustomTab</name>
     <members>CampPrep__c</members>

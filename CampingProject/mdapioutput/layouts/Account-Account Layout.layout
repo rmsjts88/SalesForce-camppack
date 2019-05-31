@@ -139,6 +139,10 @@
                 <behavior>Edit</behavior>
                 <field>Description</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Act_Description_Long__c</field>
+            </layoutItems>
         </layoutColumns>
         <style>OneColumn</style>
     </layoutSections>
