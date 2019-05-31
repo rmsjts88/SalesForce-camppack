@@ -79,18 +79,7 @@
   <types>
     <name>PermissionSet</name>
     <members>CampPackAccess</members>
-  </types>
-  <types>
-    <name>Profile</name>
-    <members>Admin</members>
-    <members>Custom%3A Marketing Profile</members>
-    <members>Custom%3A Sales Profile</members>
-    <members>Custom%3A Support Profile</members>
-  </types>
-  <types>
-    <name>Settings</name>
-    <members>OrgPreference</members>
-  </types>
+  </types>  
   <types>
     <name>CustomTab</name>
     <members>CampPrep__c</members>
