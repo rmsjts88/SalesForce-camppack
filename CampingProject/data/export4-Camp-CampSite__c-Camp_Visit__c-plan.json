@@ -4,7 +4,7 @@
         "saveRefs": true,
         "resolveRefs": false,
         "files": [
-            "export2-Camp-CampSite__cs.json"
+            "export4-Camp-CampSite__cs.json"
         ]
     },
     {
@@ -12,7 +12,7 @@
         "saveRefs": false,
         "resolveRefs": true,
         "files": [
-            "export2-Camp-Camp_Visit__cs.json"
+            "export4-Camp-Camp_Visit__cs.json"
         ]
     }
 ]

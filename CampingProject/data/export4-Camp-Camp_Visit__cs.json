@@ -40,8 +40,32 @@
                 "type": "Camp_Visit__c",
                 "referenceId": "Camp_Visit__cRef4"
             },
-            "Name": "Kayak trip to north",
+            "Name": "Early 2019, E-Bday",
             "CampSite__c": "@CampSite__cRef5",
+            "Checkin_Date__c": "2019-06-28",
+            "Length_of_Stay__c": 2,
+            "Site_Features__c": "Length for a 50 foot trailer, well hidden",
+            "Site_Number__c": "215"
+        },
+        {
+            "attributes": {
+                "type": "Camp_Visit__c",
+                "referenceId": "Camp_Visit__cRef5"
+            },
+            "Name": "Fall 2018, Eric visit, Ikea visit",
+            "CampSite__c": "@CampSite__cRef5",
+            "Checkin_Date__c": "2018-10-05",
+            "Length_of_Stay__c": 2,
+            "Site_Features__c": "Close to bath room, fairly private. Hwy 12 is near by.",
+            "Site_Number__c": "127"
+        },
+        {
+            "attributes": {
+                "type": "Camp_Visit__c",
+                "referenceId": "Camp_Visit__cRef6"
+            },
+            "Name": "Kayak trip to north",
+            "CampSite__c": "@CampSite__cRef6",
             "Checkin_Date__c": "2018-07-14",
             "Length_of_Stay__c": 4,
             "Site_Features__c": "Plenty of room, right next to pit toilets, and near road",
@@ -50,39 +74,14 @@
         {
             "attributes": {
                 "type": "Camp_Visit__c",
-                "referenceId": "Camp_Visit__cRef5"
+                "referenceId": "Camp_Visit__cRef7"
             },
             "Name": "Mid Summer, Early week visit",
-            "CampSite__c": "@CampSite__cRef6",
+            "CampSite__c": "@CampSite__cRef7",
             "Checkin_Date__c": "2017-08-13",
             "Length_of_Stay__c": 2,
             "Site_Features__c": "Lots of open space.",
             "Site_Number__c": "61"
-        },
-        {
-            "attributes": {
-                "type": "Camp_Visit__c",
-                "referenceId": "Camp_Visit__cRef6"
-            },
-            "Name": "Early 2019, E-Bday",
-            "CampSite__c": "@CampSite__cRef7",
-            "Checkin_Date__c": "2019-06-28",
-            "Cost_of_the_visit__c": 78,
-            "Length_of_Stay__c": 2,
-            "Site_Features__c": "WS2PRK003204124 Length for a 50 foot trailer.",
-            "Site_Number__c": "215"
-        },
-        {
-            "attributes": {
-                "type": "Camp_Visit__c",
-                "referenceId": "Camp_Visit__cRef7"
-            },
-            "Name": "Fall 2018, Eric visit, Ikea visit",
-            "CampSite__c": "@CampSite__cRef7",
-            "Checkin_Date__c": "2018-10-05",
-            "Length_of_Stay__c": 2,
-            "Site_Features__c": "Close to bath room, fairly private. Hwy 12 is near by.",
-            "Site_Number__c": "127"
         }
     ]
 }

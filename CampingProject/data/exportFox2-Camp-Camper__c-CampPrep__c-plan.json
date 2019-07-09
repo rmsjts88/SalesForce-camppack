@@ -4,7 +4,7 @@
         "saveRefs": true,
         "resolveRefs": false,
         "files": [
-            "exportFox-Camp-Camper__cs.json"
+            "exportFox2-Camp-Camper__cs.json"
         ]
     },
     {
@@ -12,7 +12,7 @@
         "saveRefs": false,
         "resolveRefs": true,
         "files": [
-            "exportFox-Camp-CampPrep__cs.json"
+            "exportFox2-Camp-CampPrep__cs.json"
         ]
     }
 ]

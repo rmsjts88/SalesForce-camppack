@@ -1,18 +1,18 @@
 [
     {
-        "sobject": "CampSite__c",
+        "sobject": "Camper__c",
         "saveRefs": true,
         "resolveRefs": false,
         "files": [
-            "export3-Camp-CampSite__cs.json"
+            "export4-Camp-Camper__cs.json"
         ]
     },
     {
-        "sobject": "Camp_Visit__c",
+        "sobject": "CampPrep__c",
         "saveRefs": false,
         "resolveRefs": true,
         "files": [
-            "export3-Camp-Camp_Visit__cs.json"
+            "export4-Camp-CampPrep__cs.json"
         ]
     }
 ]

@@ -1,0 +1,32 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "CampPrep__c",
+                "referenceId": "CampPrep__cRef1"
+            },
+            "Name": "Fall2019 trip to Lacrosse",
+            "Bathroom__c": true,
+            "Bedding__c": true,
+            "Camper__c": "@Camper__cRef2",
+            "Food__c": false,
+            "Front_Storage__c": true,
+            "State__c": "Partial",
+            "Water__c": false
+        },
+        {
+            "attributes": {
+                "type": "CampPrep__c",
+                "referenceId": "CampPrep__cRef2"
+            },
+            "Name": "Spring2019 initial trip",
+            "Bathroom__c": true,
+            "Bedding__c": true,
+            "Camper__c": "@Camper__cRef2",
+            "Food__c": true,
+            "Front_Storage__c": true,
+            "State__c": "Ready to go today",
+            "Water__c": true
+        }
+    ]
+}

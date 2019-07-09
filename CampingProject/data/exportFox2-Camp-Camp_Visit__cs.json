@@ -5,7 +5,7 @@
                 "type": "Camp_Visit__c",
                 "referenceId": "Camp_Visit__cRef1"
             },
-            "Name": "Planned, Fall trip",
+            "Name": "Fall trip Perot",
             "CampSite__c": "@CampSite__cRef1",
             "Checkin_Date__c": "2019-10-04",
             "Length_of_Stay__c": 3,
@@ -52,6 +52,18 @@
                 "type": "Camp_Visit__c",
                 "referenceId": "Camp_Visit__cRef5"
             },
+            "Name": "Early 2019, E-Bday",
+            "CampSite__c": "@CampSite__cRef5",
+            "Checkin_Date__c": "2019-06-28",
+            "Length_of_Stay__c": 2,
+            "Site_Features__c": "Length for a 50 foot trailer, well hidden",
+            "Site_Number__c": "215"
+        },
+        {
+            "attributes": {
+                "type": "Camp_Visit__c",
+                "referenceId": "Camp_Visit__cRef6"
+            },
             "Name": "Kayak trip to north",
             "CampSite__c": "@CampSite__cRef6",
             "Checkin_Date__c": "2018-07-14",
@@ -62,7 +74,7 @@
         {
             "attributes": {
                 "type": "Camp_Visit__c",
-                "referenceId": "Camp_Visit__cRef6"
+                "referenceId": "Camp_Visit__cRef7"
             },
             "Name": "Mid Summer, Early week visit",
             "CampSite__c": "@CampSite__cRef7",

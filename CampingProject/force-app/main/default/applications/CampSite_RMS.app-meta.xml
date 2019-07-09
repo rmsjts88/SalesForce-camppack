@@ -16,6 +16,7 @@
     <tabs>CampSite__c</tabs>
     <tabs>Camper__c</tabs>
     <tabs>Camp_Visit__c</tabs>
+    <tabs>CampPrep__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>CampSite_UtilityBar</utilityBar>
 </CustomApplication>
